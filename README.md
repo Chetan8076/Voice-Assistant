@@ -1,11 +1,6 @@
-# Voice-Assistant
-Voice assistant that can listen and respond  according to the situation
-Modules to install:
+# Voice-Assitant
+Voice assistant is a virtual assistant which listen to your commands and give responses according to the command
+Using pip install in your command line install the following libraries.
 pyttsx3
-datetime
-sp_recog 
-wikipedia
-webbrowser
-os
+sp_recog
 smtplib
-You can install these modules just by writing "pip install package name" in cmd
