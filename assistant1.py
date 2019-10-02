@@ -24,7 +24,7 @@ def wishMe():
 		speak("Good Afternoon!")
 	else:
 		speak("Good Evening")
-	speak("I am deadpool Sir.Please tell me how may I help you")
+	speak("I am deadpool .Please tell me how may I serve you : ")
 
 def takeCommand():
 	#it takes microphone input from the user and returns string
@@ -35,7 +35,7 @@ def takeCommand():
 		r.pause_threhold=1
 		audio=r.listen(source)
 	try:
-		print("Recognizing...")
+		print("Recognizing............")
 		query=r.recognize_google(audio,language='en-in')
 		print(f"User said: {query}\n")
 
@@ -60,7 +60,7 @@ def sendEmail(to,content):
 
 
 if __name__=="__main__":
-	speak("chetan is a good boy")
+	speak(" vishal dut urf BABA)
 	wishMe()
 	while True:
 
